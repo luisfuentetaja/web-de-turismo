@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.cuadradosInfo{
+    height: 550px;
+    float: left;
+    border: 1px solid black;
+    width: 39%;
+    margin: 2% 5%;
+    text-align: center;
+    padding: 10px;
+}
+.cuadradosInfor h3{
+    text-align: center;
+}
+.foto{
+    width: 90%;
+    height: 80%;
+}
