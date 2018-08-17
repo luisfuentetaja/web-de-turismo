@@ -11,6 +11,7 @@ import { MonumentosComponent } from './monumentos/monumentos.component';
 import { DondeComerComponent } from './donde-comer/donde-comer.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { InformacionDetalladaComponent } from './informacion-detallada/informacion-detallada.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeaderComponent } from './header/header.component';
     MonumentosComponent,
     DondeComerComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    InformacionDetalladaComponent
   ],
   imports: [
     BrowserModule,

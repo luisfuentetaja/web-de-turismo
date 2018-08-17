@@ -1,0 +1,31 @@
+
+h2{
+    text-align: center;
+   
+}
+
+.cuadradosInfo{
+    height: 300px;
+    /* float: left; */
+    border: 1px solid black;
+    /* width: 20%; */
+    margin: 2% 5%;
+    text-align: center;
+    padding: 10px;
+}
+.cuadradosInfor h3{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    width: 100%;
+    margin: 2% 0;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
