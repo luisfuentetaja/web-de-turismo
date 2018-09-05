@@ -1,11 +1,10 @@
 h2{
-    text-align: center;
-   
+    text-align: center;  
 }
 .cuadradosInfo{
-    height: 200px;
+    height: 450px;
     border: 1px solid black;
-    margin: 2% 5%;
+    margin: 10% 5%;
     text-align: center;
     padding: 10px;
 }
@@ -23,4 +22,8 @@ a.button {
     appearance: button;
     text-decoration: none;
     color: initial;
+}
+.foto{
+    width: 90%;
+    height: 70%;
 }

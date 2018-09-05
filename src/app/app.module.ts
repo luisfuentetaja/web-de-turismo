@@ -12,6 +12,12 @@ import { DondeComerComponent } from './donde-comer/donde-comer.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { InformacionDetalladaComponent } from './informacion-detallada/informacion-detallada.component';
+import { AlojamientoComponent } from './alojamiento/alojamiento.component';
+import { ClimatologiaComponent } from './climatologia/climatologia.component';
+import { EntornoComponent } from './entorno/entorno.component';
+import { ComoLlegarComponent } from './como-llegar/como-llegar.component';
+import { PersonajesComponent } from './personajes/personajes.component';
+import { TiempoComponent } from './tiempo/tiempo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { InformacionDetalladaComponent } from './informacion-detallada/informaci
     DondeComerComponent,
     FooterComponent,
     HeaderComponent,
-    InformacionDetalladaComponent
+    InformacionDetalladaComponent,
+    AlojamientoComponent,
+    ClimatologiaComponent,
+    EntornoComponent,
+    ComoLlegarComponent,
+    PersonajesComponent,
+    TiempoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,24 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 h2{
     text-align: center;
 }
 .cuadradosInfo{
-    height: 550px;
-    float: left;
+    height: 400px;
     border: 1px solid black;
-    width: 39%;
-    margin: 2% 5%;
     text-align: center;
     padding: 10px;
-}
-.cuadradosInfor h3{
-    text-align: center;
+    margin: 3% 0 0 0;
 }
 .foto{
     width: 90%;
-    height: 80%;
+    height: 70%;
 }
