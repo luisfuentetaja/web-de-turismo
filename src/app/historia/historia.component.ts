@@ -12,7 +12,7 @@ export class HistoriaComponent implements OnInit {
   constructor(private historiaService: HistoriaService) { }
 
   ngOnInit() {
-    this.historiaService.getAllProductos()
+    this.historiaService.getAllCategorias()
     .then((response) => {
       this.historias = response.json()
       console.log(this.historias)

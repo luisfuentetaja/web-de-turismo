@@ -4,10 +4,12 @@ h2{
 }
 .cuadradosInfo{
     height: 200px;
-    border: 1px solid black;
+    border: 2px solid rgb(0, 255, 51);
     margin: 2% 5%;
     text-align: center;
     padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(118, 209, 138)
 }
 .cuadradosInfo h3{
     text-align: center;
@@ -23,4 +25,5 @@ a.button {
     appearance: button;
     text-decoration: none;
     color: initial;
+    width: 100px;
 }

@@ -1,75 +1,8 @@
-<h2>HISTORIA DE LAS NAVAS DEL MARQUES</h2>
+<h2>PERSONAS FAMOSAS DE LAS NAVAS DEL MARQUES</h2>
 <div class="row">
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6">
-    <img class="foto" src="https://turismolasnavas.es/public/thumbnails/pag22-img-origenes.XYO.jpg" alt="">
+  <div class="cuadradosInfo col-sm-12 col-md-12 col-lg-12" *ngFor="let p of personajes">
+    <h3>{{p.nombre}}</h3>
     <br>
-    <h3>Origenes</h3>
-    <p>Los primeros asentamientos humanos en la región se sitúan hacia el...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo  col-sm-12 col-md-6 col-lg-6">
-    <img class="foto" src="https://turismolasnavas.es/public/thumbnails/pag23-img-repoblacion.HMR.jpg" alt="">
-    <br>
-    <h3>Repoblacion</h3>
-    <p>A finales del siglo XI, y tras la conquista de Toledo, el rey Alfonso...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo  col-sm-12 col-md-6 col-lg-6">
-    <img class="foto" src="https://turismolasnavas.es/public/thumbnails/xpag24-img-de-senorio-a-marquesado.6FJ.jpg.pagespeed.ic.zlVXx04UXR.webp" alt="">
-    <br>
-    <h3>De Señoria a Marquesado</h3>
-    <p>Los reyes Alfonso X y Sancho IV dieron, en el siglo XIII, al caballero...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo  col-sm-12 col-md-6 col-lg-6">
-    <img class="foto" src="https://turismolasnavas.es/public/thumbnails/pag25-img-la-configuracion-de-la-villa.NC8.jpg" alt="">
-    <br>
-    <h3>La Configuracion de la Villa</h3>
-    <p>Será en el siglo XVII cuando las abundantes cosechas de lana y el...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo  col-sm-12 col-md-6 col-lg-6">
-    <img class="foto" src="https://turismolasnavas.es/public/thumbnails/pag26-img-el-siglo-xx.8JT.png" alt="">
-    <br>
-    <h3>En el Siglo XX</h3>
-    <p>Con el paso del tiempo, la historia se hace ya cercana y presente en...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo  col-sm-12 col-md-6 col-lg-6">
-    <img class="foto" src="https://turismolasnavas.es/public/thumbnails/pag27-img-lugar-de-veraneo.IX4.jpg" alt="">
-    <br>
-    <h3>Lugar de Veraneo</h3>
-    <p>A finales del siglo XIX comenzó entre la aristocracia y las clases...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo  col-sm-12 col-md-6 col-lg-6">
-    <img class="foto" src="http://turismolasnavas.es/public/files-managed/demografia.jpg" alt="">
-    <br>
-    <h3>Demografia</h3>
-    <p>En la actualidad, debido al aumento de población estival, Las Navas...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo  col-sm-12 col-md-6 col-lg-6">
-    <img class="foto" src="https://turismolasnavas.es/public/thumbnails/pag88-img-museo-la-historia-secreta-de-las-navas.M4A.jpg" alt="Fachada museo de las navas">
-    <br>
-    <h3>Museo de Las Navas del Marques</h3>
-    <p>La aventura de un lugar especial y sorprendente. La librería-museo...</p>
-    <br>
-    <button>Saber más</button>
-
+    <a [routerLink]="['/personajes/categoria', p.categoria]" class="button">Saber más</a>
   </div>
 </div>

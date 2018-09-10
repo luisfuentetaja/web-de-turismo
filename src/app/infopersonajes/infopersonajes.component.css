@@ -1,0 +1,19 @@
+.grande{
+    border: 2px solid black;
+    margin: 5% 0;
+}
+img{
+    float: left;
+    background-color: aquamarine;
+}
+
+.grande h3{
+    text-align: center;
+    font-size: 35px;
+    border: 1px solid red;
+}
+.grande p{
+    font-size: 22px;
+    border: 1px solid rgb(255, 123, 0);
+    float: left;
+}

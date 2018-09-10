@@ -1,66 +1,10 @@
 <h2>MONUMENTOS DE LAS NAVAS DEL MARQUES</h2>
 <div class="row">
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAa1mlWFu2KIvfN6M3RbJENUQwgRbM7OicyRROgEQoPiY0Oqh_" alt="Fachada Castillo Magalia">
+  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6" *ngFor='let m of monumentos'>
+    <img src={{m.imagen}} alt="Fachada Castillo Magalia" class="foto">
     <br>
-    <h3>Castillo Magalia</h3>
-    <p>Los primeros asentamientos humanos en la región se sitúan hacia el...</p>
+    <h3>{{m.titulo}}</h3>
     <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6">
-    <img src="" alt="Fachada Convento de santo domingo y san pablo">
-    <br>
-    <h3>Convento de Santo Domingo y San Pablo</h3>
-    <p>A finales del siglo XI, y tras la conquista de Toledo, el rey Alfonso...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6">
-    <img src="" alt="Fachada iglesia parroquial de san juan">
-    <br>
-    <h3>Iglesia parroquial de San Juan</h3>
-    <p>Los reyes Alfonso X y Sancho IV dieron, en el siglo XIII, al caballero...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6">
-    <img src="" alt="Fachada iglesia de nuestra señora de la asuncion">
-    <br>
-    <h3>Iglesia de Nuestra Señora de la Asunción</h3>
-    <p>Será en el siglo XVII cuando las abundantes cosechas de lana y el...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclC6Tz17uJPkfKJPTqYjdSxZHXcMnfXJmjXtsxmvr0IHjWMO-Bw" alt="Fachada ermita del santisimo cristo de gracia">
-    <br>
-    <h3>Ermita del Santísimo Cristo de Gracia</h3>
-    <p>Con el paso del tiempo, la historia se hace ya cercana y presente en...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6">
-    <img src="" alt="fachada de la ermita de san antonio">
-    <br>
-    <h3>Ermita de San Antonio</h3>
-    <p>A finales del siglo XIX comenzó entre la aristocracia y las clases...</p>
-    <br>
-    <button>Saber más</button>
-
-  </div>
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6">
-    <img src="" alt="Atalaya-Mirador de Eiffel">
-    <br>
-    <h3>Atalaya-Mirador de Eiffel</h3>
-    <p>Torre construida en 1873 en hierro y madera, atribuida popularmente a Gustave Eiffel...</p>
-    <br>
-    <button>Saber más</button>
-
+    <a [routerLink]="['/monumentos', m.id]" class="button">Saber más</a>
   </div>
 </div>

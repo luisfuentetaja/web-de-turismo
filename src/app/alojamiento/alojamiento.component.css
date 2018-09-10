@@ -4,6 +4,7 @@ h2{
 .cuadradosInfo{
     height: 450px;
     border: 1px solid black;
+    border-radius: 25px;
     margin: 10% 5%;
     text-align: center;
     padding: 10px;
@@ -22,8 +23,10 @@ a.button {
     appearance: button;
     text-decoration: none;
     color: initial;
+    width: 100px;
 }
 .foto{
     width: 90%;
     height: 70%;
+    border-radius: 25px;
 }

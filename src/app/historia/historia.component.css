@@ -1,9 +1,8 @@
-
 h2{
     text-align: center;
 }
 .cuadradosInfo{
-    height: 550px;
+    height: 500px;
     border: 1px solid black;
     text-align: center;
     padding: 10px;
@@ -12,4 +11,11 @@ h2{
 .foto{
     width: 90%;
     height: 70%;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
 }

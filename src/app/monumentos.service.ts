@@ -4,11 +4,10 @@ import { Http, RequestOptions } from '@angular/http'
 @Injectable({
     providedIn: 'root'
 })
-export class HistoriaService {
+export class MonumentosService {
     baseUrl: string;
-    
     constructor(private http: Http) {
-        this.baseUrl = 'http://localhost:3000/historia';
+        this.baseUrl = 'http://localhost:3000/monumentos';
     }
     getAllCategorias() {
         let url = `${this.baseUrl}`;

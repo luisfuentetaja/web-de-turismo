@@ -1,0 +1,8 @@
+<h2>NATURALEZA EN LAS NAVAS DEL MARQUES</h2>
+<div class="row">
+  <div class="cuadradosInfo col-sm-12 col-md-12 col-lg-12" *ngFor="let n of naturaleza">
+    <h3>{{n.nombre}}</h3>
+    <br>
+    <a [routerLink]="['/naturaleza/categoria', n.categoria]" class="button">Saber más</a>
+  </div>
+</div>
