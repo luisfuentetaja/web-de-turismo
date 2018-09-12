@@ -3,14 +3,29 @@ a.button {
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    color: initial;
+    color: white;
+    border: none !important;
+    background-color:orange;
     width: 150px;
+    height: 25px;
 }
 .info{
     text-align: center;
     border: 2px solid green;
-    background-color: lightgreen;
+    background-color:  rgb(43, 172, 11);
     padding: 10px;
     margin: 2% 0 0 0;
     height: 600px;
+}
+.container{
+    margin: 5% auto;
+}
+.container-fluid{
+    width: auto;
+    height: 400px;
+    background-image: url(../../assets/slide-mapa.jpg);
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 175px;
 }

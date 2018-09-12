@@ -1,11 +1,22 @@
-h2{
-    text-align: center;
-    margin: 3% 0;
-    font-size: 50px
-}
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 35px;
+}
+.carousel-item{
+    height: 500px;
+}
+
+.container{
+    margin: 5% auto;
+}
+.container-fluid{
+    width: auto;
+    height: 400px;
+    background-image: url(../../assets/slide-climatologia2.jpg);
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    padding-top: 175px;
 }

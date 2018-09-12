@@ -9,3 +9,15 @@ p{
     font-size: 18px;
     line-height: 35px;
 }
+.container{
+    margin: 5% auto;
+}
+.container-fluid{
+    width: auto;
+    height: 400px;
+    background-image: url(../../assets/slide-entorno.jpg);
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 175px;
+}

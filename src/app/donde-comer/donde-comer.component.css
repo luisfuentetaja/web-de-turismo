@@ -1,6 +1,5 @@
 h2{
-    text-align: center;
-   
+    text-align: center
 }
 .cuadradosInfo{
     height: 200px;
@@ -9,7 +8,7 @@ h2{
     text-align: center;
     padding: 10px;
     border-radius: 50px;
-    background-color: rgb(118, 209, 138)
+    background-color:  rgb(43, 172, 11)
 }
 .cuadradosInfo h3{
     text-align: center;
@@ -24,6 +23,21 @@ a.button {
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    color: initial;
-    width: 100px;
+    color: white;
+    border: none !important;
+    background-color:orange;
+    width: 150px;
+    height: 25px;
+}
+.container{
+    margin: 5% auto;
+}
+.container-fluid{
+    width: auto;
+    height: 400px;
+    background-image: url(../../assets/slide-comer.jpg);
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 175px;
 }

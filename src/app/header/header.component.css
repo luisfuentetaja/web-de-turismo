@@ -1,6 +1,8 @@
-.navbar-brand{
-    margin: 1% 71% 1% 5%;
+nav{
+    background-color:  rgb(43, 172, 11) !important;
 }
-li .nav-item .dropdown{
-    text-align: left;
+
+img{
+    width: 200px;
+    height: auto;
 }

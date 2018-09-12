@@ -1,8 +1,7 @@
 
 .footer{
     width:100%;
-    background-color: darkgrey;
-    border:1px solid black;
+    background-color: rgb(43, 172, 11);
     padding: 1% 5%;
     margin: 2% 0 0 0;
 }
@@ -11,4 +10,7 @@ ul .titulo{
 }
 .contenedor{
     margin: 0 auto;
+}
+a{
+    color: black;
 }

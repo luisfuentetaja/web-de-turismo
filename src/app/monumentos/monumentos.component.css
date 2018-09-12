@@ -3,7 +3,6 @@ h2{
 }
 .cuadradosInfo{
     height: 500px;
-    border: 1px solid black;
     text-align: center;
     padding: 10px;
     margin: 3% 0 0 0;
@@ -17,5 +16,21 @@ a.button {
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    color: initial;
+    color: white;
+    border: none !important;
+    background-color:orange;
+    width: 150px;
+    height: 25px;
+}
+.container{
+    margin: 5% auto;
+}
+.container-fluid{
+    width: auto;
+    height: 400px;
+    background-image: url(../../assets/slide-monumentos.jpg);
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 175px;
 }

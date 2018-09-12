@@ -1,11 +1,15 @@
-<h2>HISTORIA DE LAS NAVAS DEL MARQUES</h2>
-<div class="row">
-  <div class="cuadradosInfo col-sm-12 col-md-6 col-lg-6" *ngFor='let h of historias'>
-    <img class="foto" src={{h.imagen}} alt="">
-    <br>
-    <h3>{{h.titulo}}</h3>
-    <br>
-    <a [routerLink]="['/historia', h.id]" class="button">Saber más</a>
+<div class="container-fluid">
+    HISTORIA DE LAS NAVAS DEL MARQUES
+</div>
+<div class="container">
+  <div class="row">
+    <div class="cuadradosInfo col-sm-12 col-md-12 col-lg-6" *ngFor='let h of historias'>
+      <img class="foto" src={{h.imagen}} alt="">
+      <br>
+      <h3>{{h.titulo}}</h3>
+      <br>
+      <a [routerLink]="['/historia', h.id]" class="button">Saber más</a>
 
+    </div>
   </div>
 </div>
